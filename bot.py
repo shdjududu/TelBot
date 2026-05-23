@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Arolinks Stealth Bot is Running 24/7!"
+    return "Muh khol ayush bhai"
 
 def run_server():
     port = int(os.environ.get("PORT", 8080))
