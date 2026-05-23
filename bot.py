@@ -170,8 +170,8 @@ def bypass_arolinks(url):
 @bot.message_handler(commands=['start'])
 def welcome_msg(message):
     text = (
-        "👋 *Tel Lagake dabar ka*\n\n"
-        "Naam Mitado Babar ka"
+        "👋 *Ayush is feeling*\n\n"
+        "Horny"
     )
     bot.reply_to(message, text, parse_mode="Markdown")
 
