@@ -170,8 +170,8 @@ def bypass_arolinks(url):
 @bot.message_handler(commands=['start'])
 def welcome_msg(message):
     text = (
-        "👋 *Welcome to Stealth Bypass Bot!*\n\n"
-        "Send me any Arolinks URL, and I will securely extract the key for you in exactly *2 Minutes 5 Seconds*."
+        "👋 *Tel Lagake dabar ka*\n\n"
+        "Naam Mitado Babar ka"
     )
     bot.reply_to(message, text, parse_mode="Markdown")
 
